@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: free-gpt4-web-api
+    runtime: docker
+    plan: free
+    envVars:
+      - key: PORT
+        value: "5500"
+    healthCheckPath: /
