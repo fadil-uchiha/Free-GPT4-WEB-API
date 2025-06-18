@@ -33,8 +33,6 @@ PROXIES_FILE = "./data/proxies.json"
 # Available providers
 PROVIDERS = {
     "Auto": "",
-    "Aichat": g4f.Provider.Aichat,
-    "Ails": g4f.Provider.Ails,
     "BlackBox": g4f.Provider.Blackbox,
     "Chatgpt4o": g4f.Provider.Chatgpt4o,
     "ChatGpt": g4f.Provider.ChatGpt,
@@ -42,7 +40,6 @@ PROVIDERS = {
     "DeepInfraChat": g4f.Provider.DeepInfraChat,
     "Glider": g4f.Provider.Glider,
     "H2o": g4f.Provider.H2o,
-    "HuggingChat": g4f.Provider.HuggingChat,
     "Opchatgpts": g4f.Provider.Opchatgpts,
     "OpenAssistant": g4f.Provider.OpenAssistant,
     "OpenaiChat": g4f.Provider.OpenaiChat,
